@@ -1,0 +1,1 @@
+document.getElementById('ClickedEasy').onclick console.log("easyclicked");

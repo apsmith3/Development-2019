@@ -8,6 +8,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 
+    <script src="Light%20Control.js"></script>
+
     <style>
         table   {
             width:100%;
@@ -15,7 +17,7 @@
         td  {
             width:33.33%;
             height:100px;
-            border: 6px solid black;
+            border: 6px solid gray;
         }
         td:after{
             content: '';
@@ -31,16 +33,16 @@
     <div class="card mt-3 col-md-6">
         <table id="LightGrid">
             <tr>
-                <td class="bg-light" id="1"></td>
-                <td class="bg-light" id="4"></td>
+                <td class="bg-danger" id="red"></td>
+                <td class="bg-primary" id="blue"></td>
             </tr>
             <tr>
-                <td class="bg-light" id="2"></td>
-                <td class="bg-light" id="5"></td>
+                <td class="bg-warning" id="orange"></td>
+                <td class="bg-success" id="green"></td>
             </tr>
             <tr>
-                <td class="bg-light" id="3"></td>
-                <td class="bg-light" id="6"></td>
+                <td  id="3" style="background-color: purple"></td>
+                <td  id="6" style="background-color: yellow"></td>
             </tr>
         </table>
     </div>
